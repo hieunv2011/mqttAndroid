@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonPublish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publish Message"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/buttonG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G1"
+        android:layout_below="@id/buttonPublish"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/buttonG2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G2"
+        android:layout_below="@id/buttonG1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#00FF00"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/buttonG3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G3"
+        android:layout_below="@id/buttonG2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#0000FF"
+        android:textColor="#FFFFFF"/>
+</RelativeLayout>
